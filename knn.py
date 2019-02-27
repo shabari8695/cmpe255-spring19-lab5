@@ -85,6 +85,7 @@ if __name__ == "__main__":
     k_values = [1, 3, 5, 7]
     from data import cities
     # Import cities from data.py and pass it into predict_preferred_language_by_city(x, y).
-    #print("")
-    #predict_preferred_language_by_city(k_values, cities)
+    print("with actual code")
+    predict_preferred_language_by_city(k_values, cities)
+    print("with scikit code")
     predict_preferred_language_by_city_scikit(k_values, cities)
